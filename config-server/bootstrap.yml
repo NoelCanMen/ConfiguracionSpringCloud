@@ -1,0 +1,16 @@
+server:
+	port: 8081
+
+spring:
+	cloud:
+		config:
+			server:
+				git:
+					#url de repositorio donde están subidos los yml de los proyectos
+					uri:
+					#especificamos donde están los archivos de configuración de nuestros proyectos
+					searchPaths: config-data
+		security:
+			user:
+				name: root
+				password: asdfg
