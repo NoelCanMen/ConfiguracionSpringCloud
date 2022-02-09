@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # url de repositorio donde estan ubidados los yml de los proyectos
+          uri: https://github.com/JuanCarlosHurtadoGarcia/BootCampSpringCloud          
+          searchPaths: config-data       
+ # security:
+    user:
+      name: root
+      password: s3cr3t
